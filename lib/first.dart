@@ -110,7 +110,7 @@ class _MyAppState extends State<first>{
                 RaisedButton(
                   child: Text('Go to main page'),
                   onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>MyApp()));
+                    Navigator.pop(context  );
                   },
                 ),
               ],
